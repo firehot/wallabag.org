@@ -60,7 +60,7 @@ ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}'
 ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 
 STATIC_PATHS = [
-    'extra/.htaccess',
+    'extra',
     'images'
     ]
 

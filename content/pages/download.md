@@ -1,7 +1,7 @@
 Title: Download wallabag 
 
 * Last version: **1.8.1**, released on November 15th, 2014.
-* [Blog post about this version](/new-release-wallabag-1-8-1)
+* [Blog post about this version]({filename}/2014-11-15-new-release-wallabag-1-8-1.md)
 * [Download it here](http://wllbg.org/latest)
 
 You can also install wallabag in one click [thanks to Softaculous](http://www.softaculous.com/apps/others/wallabag) or [via ampps](http://www.ampps.com/apps/others/wallabag).
