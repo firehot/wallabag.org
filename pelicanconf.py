@@ -61,6 +61,7 @@ ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
 
 STATIC_PATHS = [
     'extra/.htaccess',
+    'images'
     ]
 
 EXTRA_PATH_METADATA = {
