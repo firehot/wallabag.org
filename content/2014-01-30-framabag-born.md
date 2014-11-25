@@ -7,9 +7,7 @@ Since August 2013, you can create a free account, we install an update the appli
 
 Few days ago, [Framasoft](http://www.framasoft.net) contacted me: why not integrate our system into Framasoft network?
 
-
-<blockquote>**Framasoft** is an association that promotes open source.</blockquote>
-
+> **Framasoft** is an association that promotes open source.
 
 I am so proud to announce **Framabag** (Framasoft + wallabag): [http://www.framabag.org](http://www.framabag.org)
 

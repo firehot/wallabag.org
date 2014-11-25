@@ -24,8 +24,11 @@ MENUITEMS = (('what is wallabag?', '/'),
              ('Features', '/pages/features.html'),
              ('Downloads', '/pages/download-wallabag.html'),
              ('Documentation', 'http://doc.wallabag.org'),
+             ('Need help?', 'http://support.wallabag.org'),
              ('News', '/blog_index.html'),
-             ('Help this project', '/pages/help-this-project.html'),)
+             ('Help this project', '/pages/help-this-project.html'),
+             ('Try wallabag', 'http://demo.wallabag.org'),
+             ('Contact', '/pages/contact-us.html'),)
 
 DEFAULT_PAGINATION = 6
 INDEX_SAVE_AS = 'blog_index.html'
@@ -46,7 +49,20 @@ GITHUB_REPO_COUNT = 3
 
 MIT_LICENSE = True
 
-SITELOGO = 'plop.png'
+HIDE_SITENAME = True
+# SITELOGO = 'images/logo.png'
 
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
+WALLABAG_VERSION = "1.8.1"
+
+ARTICLE_URL = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}'
+ARTICLE_SAVE_AS = 'blog/{date:%Y}/{date:%m}/{date:%d}/{slug}.html'
+
+STATIC_PATHS = [
+    'extra/.htaccess',
+    ]
+
+EXTRA_PATH_METADATA = {
+    'extra/.htaccess': {'path': '.htaccess'}, 
+}
