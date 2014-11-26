@@ -1,0 +1,112 @@
+{% if DISPLAY_TAGS_ON_SIDEBAR is not defined %}
+    {% set DISPLAY_TAGS_ON_SIDEBAR = True %}
+{% endif %}
+
+<aside>
+    <section>
+        <ul class="list-group list-group-flush">
+
+            {% if DISPLAY_RECENT_POSTS_ON_SIDEBAR %}
+                {% if RECENT_POST_COUNT is not defined %}
+                    {% set RECENT_POST_COUNT = 5 %}
+                {% endif %}
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent posts</span></h4>
+                    <ul class="list-group" id="recentposts">
+                    {% for article in articles[:RECENT_POST_COUNT] %}
+                        <li class="list-group-item">
+                            <a href="{{ SITEURL }}/{{ article.url }}">
+                                {{ article.title }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+            {% endif %}
+
+            <li class="list-group-item"><h4><i class="fa fa-tags fa-lg"></i><span class="icon-label">Downloads</span></h4>
+                <ul class="list-group" id="downloads">
+                    <li class="list-group-item">
+                        <a href="http://wllbg.org/latest">
+                            <b>wallabag {{ WALLABAG_VERSION }}</b> (2014/11/15)
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche">
+                            Android application
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="https://itunes.apple.com/app/wallabag/id828331015?mt=8">
+                            iOS application
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="www.windowsphone.com/en-US/store/app/wallabag/d5226cf1-f422-4e00-996c-88e9c5233332">
+                            Windows application
+                        </a>
+                    </li>
+                </ul>
+            </li>
+
+            {% include 'includes/github.html' %}
+
+            {% if SOCIAL %}
+                <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Social</span></h4>
+                  <ul class="list-group" id="social">
+                    {% for name, link in SOCIAL %}
+                        {% set name_sanitized = name|lower|replace('+','-plus')|replace(' ','-') %}
+                        {% if name_sanitized in ['flickr', 'spotify', 'stack-overflow'] %}
+                            {% set iconattributes = '"fa fa-' ~ name_sanitized ~ ' fa-lg"' %}
+                        {% else %}
+                            {% set iconattributes = '"fa fa-' ~ name_sanitized ~ '-square fa-lg"' %}
+                        {% endif %}
+                    <li class="list-group-item"><a href="{{ link }}"><i class={{ iconattributes }}></i> {{ name }}</a></li>
+                    {% endfor %}
+                  </ul>
+                </li>
+            {% endif %}
+
+            {% if DISPLAY_CATEGORIES_ON_SIDEBAR %}
+                <li class="list-group-item"><a href="{{ SITEURL }}/{{ CATEGORIES_URL }}"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Categories</span></h4></a>
+                    <ul class="list-group" id="categories">
+                    {% for cat, null in categories %}
+                        <li class="list-group-item">
+                            <a href="{{ SITEURL }}/{{ cat.url }}">
+                                <i class="fa fa-folder-open fa-lg"></i> {{ cat }}
+                            </a>
+                        </li>
+                    {% endfor %}
+                    </ul>
+                </li>
+            {% endif %}
+
+            {% if DISPLAY_SERIES_ON_SIDEBAR %}
+                {% if article %}
+                    {% if article.series %}
+                        <li class="list-group-item"><h4><i class="fa fa-tags fa-list-ul"></i><span class="icon-label">Series</span></h4>
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                {% if article.series.previous %}
+                                    <h5></i> Previous article</h5>
+                                    <a href="{{ SITEURL }}/{{ article.series.previous.url }}">{{ article.series.previous.title }}</a>
+                                {% endif %}
+                                </li>
+                                <li class="list-group-item">
+                                {% if article.series.next %}
+                                    <h5>Next article</h5>
+                                    <a href="{{ SITEURL }}/{{ article.series.next.url }}">{{ article.series.next.title }}</a>
+                                {% endif %}
+                                </li>
+                            </ul>
+                        </li>
+                    {% endif%}
+                {% endif %}
+            {% endif %}
+
+            {% include 'includes/twitter_timeline.html' %}
+            {% include 'includes/links.html' %}
+
+        </ul>
+    </section>
+
+</aside>

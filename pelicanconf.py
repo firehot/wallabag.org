@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Nicolas L\u0153uillet'
 SITENAME = u'wallabag'
-SITEURL = 'https://www.wallabag.org/v2'
+#SITEURL = 'https://www.wallabag.org'
 
 PATH = 'content'
 
@@ -33,7 +33,7 @@ MENUITEMS = (('what is wallabag?', '/'),
 DEFAULT_PAGINATION = 6
 INDEX_SAVE_AS = 'blog_index.html'
 SUMMARY_MAX_LENGTH = None
-THEME = "/Users/loeuilletnicolas/pelican-themes/pelican-bootstrap3"
+THEME = "pelican-bootstrap3"
 BOOTSTRAP_THEME = 'yeti'
 
 DISPLAY_CATEGORIES_ON_MENU = False
