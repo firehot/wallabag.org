@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = u'Nicolas L\u0153uillet'
 SITENAME = u'wallabag'
-#SITEURL = 'http://www.cdetc.fr/v2'
+SITEURL = 'https://www.wallabag.org/v2'
 
 PATH = 'content'
 
@@ -50,7 +50,6 @@ GITHUB_REPO_COUNT = 3
 MIT_LICENSE = True
 
 HIDE_SITENAME = True
-# SITELOGO = 'images/logo.png'
 
 DISPLAY_RECENT_POSTS_ON_SIDEBAR = True
 
@@ -66,4 +65,11 @@ STATIC_PATHS = [
 
 EXTRA_PATH_METADATA = {
     'extra/.htaccess': {'path': '.htaccess'}, 
+    'extra/c89a2a203e9a6045dd4df81b6ca20289.txt': {'path': 'c89a2a203e9a6045dd4df81b6ca20289.txt'},
+    'extra/googlef9834aed73023328.html': {'path': 'googlef9834aed73023328.html'},
 }
+
+READERS = {'html': None}
+
+PIWIK_URL = 'static.wallabag.org/piwik'
+PIWIK_SITE_ID = 1

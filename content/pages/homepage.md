@@ -1,9 +1,11 @@
 Title: what is wallabag? 
 save_as: index.html
 
-wallabag (formerly poche) is a **self hostable application for saving web pages**. Unlike other services, wallabag is free (as in freedom) and open source.
+<p style="text-align:center" markdown="1">
+    ![wallabag](/images/logo.png)
+</p>
 
-![wallabag](/images/logo.png)
+wallabag is a **self hostable application for saving web pages**. Unlike other services, wallabag is free (as in freedom) and open source.
 
 With this application you will not miss content anymore. **Click, save, read it when you want**. It saves the content you select so that you can read it when you have time.
 
