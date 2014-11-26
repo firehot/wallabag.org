@@ -2,7 +2,16 @@
 RedirectPermanent /feed https://www.wallabag.org/feeds/all.atom.xml
 
 # remove trailing slash
-RewriteRule ^(.*)\/(\?.*)?$ $1$2 [R=301,L]
+# e.g. example.com/foo/ will redirect to example.com/foo
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.+)/$ /$1 [R=permanent,QSA]
 
 # 404 error
-ErrorDocument 404 /pages/oops-page-not-found.html
+ErrorDocument 404 /index.html
+
+RedirectPermanent /downloads/ /pages/download-wallabag.html
+RedirectPermanent /features/ /pages/features.html
+RedirectPermanent /screenshots/ /pages/features.html
+#RedirectPermanent /blog/ /blog_index.html
+RedirectPermanent /support-us/ /pages/help-this-project.html
+RedirectPermanent /help/ /pages/contact-us.html

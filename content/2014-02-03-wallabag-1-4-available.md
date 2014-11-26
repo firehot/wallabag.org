@@ -41,7 +41,7 @@ It's a major version, but no big changes: it's only we change the application na
 
 Demo website is up to date [http://demo.wallabag.org](http://demo.wallabag.org)
 
-Framabag is up to date [http://www.framabag.org](http://www.framabag.org)
+Framabag is up to date [https://www.framabag.org](https://www.framabag.org)
 
 
 ## Download

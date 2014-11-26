@@ -3,9 +3,9 @@ slug: can-finally-read-articles-offline
 title: You can finally read your articles while being offline
 tags: android, documentation, v1
 
-Jonathan Gaulupeau has updated our Android application (this version is currently only available on [Google Play](https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche)): with this version, you can finally read your articles while being offline.
+Jonathan Gaulupeau has updated our Android application (this version is currently only available on [Google Play]({filename}/pages/download.md)): with this version, you can finally read your articles while being offline.
 
-You have to use poche 1.3 (if your poche is [hosted by us](http://app.inthepoche.com), it's good for you!) and RSS feeds must be enabled.
+You have to use poche 1.3 (if your poche is [hosted by us](https://www.framabag.org), it's good for you!) and RSS feeds must be enabled.
 
 
 ### Known issues
@@ -31,5 +31,3 @@ You have to use poche 1.3 (if your poche is [hosted by us](http://app.inthepoche
 
 
 We are so happy with this update! We hope you'll like it too.
-
-[button style="btn-default btn-lg" icon="glyphicon-save" align="left" type="link" target="false" title="Download the Android application" link="https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche"]

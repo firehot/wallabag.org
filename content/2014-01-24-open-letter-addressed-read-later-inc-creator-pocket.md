@@ -5,7 +5,7 @@ title: Open letter addressed to Read It Later, Inc., creator of Pocket
 
 On thursday, January the 23th 2014 I received from the law firm Shartsis Friese LLP a Cease & Desist letter labelled **Trademark Infringement by "In the poche"**.
 
-_poche_ is a free (as in freedom) and open source application which allows saving Web contents for further reading developed by a single French individual (based in France). Its website is hosted at [http://www.inthepoche.com](http://www.inthepoche.com) and its source code is freely available at [https://github.com/inthepoche/poche](https://github.com/inthepoche/poche).
+_poche_ is a free (as in freedom) and open source application which allows saving Web contents for further reading developed by a single French individual (based in France). Its website is hosted at [http://www.inthepoche.com](http://www.wallabag.org) and its source code is freely available at [https://github.com/wallabag/wallabag](https://github.com/wallabag/wallabag).
 
 Here are the claims:
 
@@ -18,7 +18,7 @@ Here are the claims:
   * The poche _logo_, which pictures a pocket, looks like yours
 
 	
-  * In this tweet [https://twitter.com/getpoche/status/423786365944225792](https://twitter.com/getpoche/status/423786365944225792), I'm supposed to depict Pocket as being unfree
+  * In this tweet [https://twitter.com/wallabagapp/status/423786365944225792](https://twitter.com/wallabagapp/status/423786365944225792), I'm supposed to depict Pocket as being unfree
 
 
 And here are the required actions I'm told by your lawyers before January the 31th, 2014:
@@ -36,10 +36,10 @@ So here's an official statement of mine regarding these claims & required action
   * I'm using the term _poche_ for my app. This is indeed the French word for Pocket, but also a common word in French. Legally, nothing prevents me from using it.
 
 	
-  * The logo will be updated, I've already updated the _poche_ twitter account avatar accordingly [http://twitter.com/getpoche](http://twitter.com/getpoche)
+  * The logo will be updated, I've already updated the _poche_ twitter account avatar accordingly [http://twitter.com/wallabagapp](http://twitter.com/wallabagapp)
 
 	
-  * All occurences of the name read-it-later have been removed from [inthepoche.com](http://inthepoche.com), and I'll delete all posts mentionning it from my social network accounts in the upcoming days
+  * All occurences of the name read-it-later have been removed from [wallabag.org](http://wallabag.org), and I'll delete all posts mentionning it from my social network accounts in the upcoming days
 
 	
   * I've never defamed Pocket. I said on twitter that Pocket was a non-free application, which means proprietary software — which is actually true. To be nice to you, I've removed any mention of Pocket from the _poche_ website where I simply mentioned that _poche_ allows migration from a Pocket account to a poche one. Though if you don't mind I'll keep mentionning Pocket as an alternative to _poche_ in this page [http://www.inthepoche.com/poche-alternatives/](http://www.inthepoche.com/poche-alternatives/)

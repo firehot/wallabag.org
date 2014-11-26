@@ -5,7 +5,7 @@ tags: v2
 
 Hi there!
 
-Just a little post to tell you we are working on poche v2. Since last week, the [v2 branch](https://github.com/inthepoche/poche/commits/v2-silex) changed a lot.
+Just a little post to tell you we are working on poche v2. Since last week, the [v2 branch](https://github.com/wallabag/wallabag/commits/v2-silex) changed a lot.
 
 You can test this branch here: [http://v2.inthepoche.com/](http://v2.inthepoche.com/)
 
