@@ -43,10 +43,6 @@ TAG_CLOUD_STEPS = 4
 TAG_CLOUD_MAX_ITEMS = 10
 DISPLAY_TAGS_INLINE = True
 
-GITHUB_URL = 'https://github.com/wallabag/wallabag'
-GITHUB_USER = 'wallabag'
-GITHUB_REPO_COUNT = 3
-
 MIT_LICENSE = True
 
 HIDE_SITENAME = True
