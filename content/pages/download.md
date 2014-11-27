@@ -19,8 +19,8 @@ You have to add wallabag in your toolbar. Then, just click on this icon to walla
 * application for Android ([f-droid](https://f-droid.org/app/fr.gaulupeau.apps.InThePoche) and [google play](https://play.google.com/store/apps/details?id=fr.gaulupeau.apps.InThePoche)) – developed by Jonathan Gaulupeau.
 This extension adds a wallabag icon in the share menu.  
 *[source code](https://github.com/wallabag/android-app)*
-* [application for Windows Phone](http://www.windowsphone.com/en-US/store/app/wallabag/d5226cf1-f422-4e00-996c-88e9c5233332) – developed by Thomas Citharel.
-This extension adds a wallabag icon in the share menu.  
+* [application for Windows Phone](http://www.windowsphone.com/en-US/store/app/wallabag/d5226cf1-f422-4e00-996c-88e9c5233332) – developed by Julian Oster.
+This extension adds a wallabag icon in the share menu.
 *[source code](https://github.com/wallabag/windows-app)*
 * [application for iOS](https://itunes.apple.com/app/wallabag/id828331015?mt=8) – developed by Kevin Meyer.  
 *[source code](https://github.com/wallabag/ios-app)*
