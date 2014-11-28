@@ -5,12 +5,10 @@ tags: website
 
 Hello everybody, 
 
-**We are proud to launch a new website**. We left wordpress to generate our website, in order to make easier the collaboration on it. 
+We are proud to launch a new website. We want to make contributions easier and thus decided to drop Wordpress. We moved to [Pelican](http://blog.getpelican.com/) instead, a great static site generator.
 
-We choosed [pelican](http://blog.getpelican.com/), a great tool to generate static website. 
+There are several advantages with this new engine as you'll see them in the coming weeks.
 
-**We have several advantages with this new website**. You'll see it in next weeks. 
-
-The webdesign is very simple, it wasn't not our priority: we wanted to have this great tool for publishing.
+The webdesign was kept very simple as it isn't our priority: we want to have this great tool for publishing.
 
 Our new RSS feed is [https://www.wallabag.org/feeds/all.atom.xml](https://www.wallabag.org/feeds/all.atom.xml).
