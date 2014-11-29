@@ -11,6 +11,6 @@ One folder per language. All this documentation is written in [Markdown](http://
 
 Today, these files are only accessible there, but we'll generate HTML documentation which will be published on our website (here: [http://doc.wallabag.org/](http://doc.wallabag.org/)).
 
-This documentation is a user documentation, not a technical one. We'll explain all the wallabag's features. All the documentation is not yet written, we are working on it, but you can start translating.
+This documentation is a user documentation, not a technical one. We'll explain all wallabag's features. All the documentation is not yet written, we are working on it, but you can start translating.
 
 **Don't wait and fork our documentation repository! **

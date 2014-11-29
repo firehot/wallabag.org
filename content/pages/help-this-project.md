@@ -9,4 +9,4 @@ You love wallabag and you want to help us? There are many ways. You can make don
 You can also contribute to the project:
 
 * by writing [the documentation](http://doc.wallabag.org)
-* by translating wallabag [in your language](https://github.com/wallabag/wallabag/blob/dev/TRANSLATION.md)
+* by translating wallabag [into your language](https://github.com/wallabag/wallabag/blob/dev/TRANSLATION.md)

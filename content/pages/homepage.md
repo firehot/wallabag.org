@@ -11,7 +11,7 @@ With this application you will not miss content anymore. **Click, save, read it 
 
 ## How it works
 
-Thanks to the bookmarklet or [third-party applications](/pages/download-wallabag.html), you save an article in your wallabag to read it later. Then, when you open your wallabag, **you can comfortably read your articles**.
+Thanks to the bookmarklet or [third-party applications](/pages/download-wallabag.html), you save an article to your wallabag to read it later. Then, when you open your wallabag, **you can comfortably read your articles**.
 
 ## How to use wallabag
 
