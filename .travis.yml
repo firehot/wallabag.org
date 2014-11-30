@@ -5,7 +5,7 @@ branches:
 install:
 - pip install pelican ghp-import
 script:
-- make publish github
+- make github
 env:
   global:
     secure: "u3MvDHm7pSTT14+gbum3Z4Dy4f5+pxuyrBDLfHcQXt246agra1wy6FOzmb6oBGZHMmFakuf0v+So3JGGD1Isr21s3ew6W4YgJKj/9IGEiUG+8c2Q47fijXMKBaBEcm3zhyU8x5eGHSYf/D7TtMyHcWjJuQyY3dTSuQU3L6i1YCs="
