@@ -63,6 +63,7 @@ EXTRA_PATH_METADATA = {
     'extra/.htaccess': {'path': '.htaccess'}, 
     'extra/c89a2a203e9a6045dd4df81b6ca20289.txt': {'path': 'c89a2a203e9a6045dd4df81b6ca20289.txt'},
     'extra/googlef9834aed73023328.html': {'path': 'googlef9834aed73023328.html'},
+    'extra/CNAME': {'path': 'CNAME'},
 }
 
 READERS = {'html': None}
