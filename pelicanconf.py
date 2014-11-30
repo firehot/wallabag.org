@@ -67,6 +67,3 @@ EXTRA_PATH_METADATA = {
 }
 
 READERS = {'html': None}
-
-PIWIK_URL = 'static.wallabag.org/piwik'
-PIWIK_SITE_ID = 1
