@@ -59,6 +59,8 @@ STATIC_PATHS = [
     'images'
     ]
 
+TEMPLATE_PAGES = {'extra/404.html': '404.html'}
+
 EXTRA_PATH_METADATA = {
     'extra/.htaccess': {'path': '.htaccess'}, 
     'extra/c89a2a203e9a6045dd4df81b6ca20289.txt': {'path': 'c89a2a203e9a6045dd4df81b6ca20289.txt'},
