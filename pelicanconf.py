@@ -30,6 +30,9 @@ MENUITEMS = (('what is wallabag?', '/'),
              ('Try wallabag', 'http://demo.wallabag.org'),
              ('Contact', '/pages/contact-us.html'),)
 
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
+SITEMAP_SAVE_AS = 'sitemap.xml'
+
 DEFAULT_PAGINATION = 6
 INDEX_SAVE_AS = 'blog_index.html'
 SUMMARY_MAX_LENGTH = None
