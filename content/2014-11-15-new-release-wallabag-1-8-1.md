@@ -34,4 +34,4 @@ For this version, I want to thank [@jsit](https://github.com/jsit), who made big
   * add About page
 
 
-[Download this version here](https://www.wallabag.org/downloads/). To upgrade your wallabag installation, extract the archive in your installation, delete install folder and clear the cache on your config page of wallabag.
+[Download this version here](http://wllbg.org/latest). To upgrade your wallabag installation, extract the archive in your installation, delete install folder and clear the cache on your config page of wallabag.
