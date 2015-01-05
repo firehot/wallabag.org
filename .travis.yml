@@ -1,0 +1,11 @@
+language: python
+branches:
+  only:
+  - master
+install:
+  - "pip install -r requirements.txt"
+script:
+  - make publish github
+env:
+  global:
+    secure: "HCy9pq+lut83yH+I62AtWmM3qCfyjEoxbQR/O9GF8uRk/xBewhLpkK3f7ZD2l/kxdv/GGGDFLHH9BD14JTYF2dJtZj9EZarluAohIiXgusZ+16xom/79dJfl+hZpCwH7ZKmTkOcnQewCF/SbYqVuizkwJAitgBU/pexvi9WGnoY="
