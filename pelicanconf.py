@@ -18,7 +18,9 @@ ARTICLE_URL = '{slug}'
 SOCIAL = (('Github', 'https://github.com/wallabag/wallabag'),
           ('twitter', 'https://twitter.com/wallabagapp'),
           ('Facebook', 'https://facebook.com/wallabag'),
-          ('Google+', 'https://plus.google.com/+WallabagOrg'),)
+          ('Google+', 'https://plus.google.com/+WallabagOrg'),
+          ('RSS', 'https://www.wallabag.org/feeds/all.atom.xml'),
+          )
 
 MENUITEMS = (('what is wallabag?', '/'),
              ('Features', '/pages/features.html'),
